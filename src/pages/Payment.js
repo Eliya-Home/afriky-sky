@@ -23,7 +23,7 @@ function Payment() {
   const downloadInvoice = async (data) => {
     try {
       const res = await fetch(
-        "http://localhost:5000/api/invoice",
+        "https://afriky-backend.onrender.com/api/invoice",
         {
           method: "POST",
           headers: {
